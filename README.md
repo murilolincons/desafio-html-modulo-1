@@ -1,16 +1,25 @@
-# Trilha HTML - Dio.me
-## Módulo 01 - Primeiros passos com HTML
+# Primeiros Passos com HTML 🦶
 
-A ideia deste desafio é elaborar um website, utilizando uma estrutura bem básica, utilizando tags aprendidas durante as aulas práticas até então. 
+Projeto simples feito em HTML para explicar, de forma prática, alguns conceitos básicos da web.
 
-Utilizar todas as tags explicadas nas aulas: `<h1>` até `<h6>`, `<p>`, `<mark>`, `<small>`, `<i>`, `<u>`, `<strong>`, `<ol>`, `<ul>`, `<li>`, `<a>`, `<hr>`, `<sub>`, `<sup>`, `<blockquote>`
+## Conteúdo da Página:
 
-Utilizar novas tags sugeridas: `<font>`, `<del>`, `<p>`, `<abbr>` (a ideia é buscar estas tags na internet, entender como ela funciona e utilizar no texto)
+1. Clients: o que são e como fazem requisições (ex.: navegadores).
 
-Importante dizer que, estas tags te "seguirão" durante TODO O CURSO, por isso, é bom que esteja bem aprendidas para aproveitarem ao máximo as próximas aulas.
+2. Servers: quem responde essas requisições e entrega páginas/arquivos.
 
-Este desafio vai fazer com que tenha dúvidas, o que é ótimo! Aos poucos você vai evoluindo na sua jornada.
+3. Linguagem de Programação: ideia geral do que é e onde entra no jogo.
 
-Após concluído este desafio! Siga para o <strong>Módulo II - Conceitos Básicos.</strong>
+4. HTML na prática: estrutura básica de um arquivo HTML e como ele funciona.
 
-Nos vemos lá!
+## Tecnologia Usada:
+
+- HTML5
+
+## Como ver o projeto:
+
+- Abra o index.html no navegador ou acesse o link do GitHub Pages.
+
+## Autor
+
+Projeto criado por Murilo Lincon, registrando meus primeiros passos no desenvolvimento web.

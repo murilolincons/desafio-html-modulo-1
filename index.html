@@ -1,62 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+   <html lang="pt-br">
+      <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Primeiros Passos com HTML</title>
+      </head>
+      <body>
+         <header>
+            <h1 id="inicio"><font color="FF8C00">Primeiros Passos com HTML</font></h1>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+            <hr/>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+            <h2>Índice</h2>
+            
+            <ul>
+               <li><a href="#client">O que são Clients?</li></a>
+               <li><a href="#server">O que são Servers?</a></li>
+               <li><a href="#linguagem">Linguagem de Programação</a></li>
+               <li><a href="#pratica">Introdução ao HTML na Prática</a></li>
+            </ul>
+         </header>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <hr/>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <h2 id="client"><font color="FF8C00">O que são Clients?</font></s></s></h2>
+         <small><a href="#inicio">[Voltar]</a></small>
+         <p>
+            Clients (ou clientes) <mark>são os dispositivos ou softwares que pedem informações na web</mark>. 
+            No seu dia a dia, isso inclui: Navegador (Chrome, Firefox, Edge…), aplicativos de celular, programas que fazem requisições a APIs.
+            Eles enviam pedidos (requisições) e recebem respostas — <u>tudo em cima do protocolo HTTP/HTTPS</u>.
+         </p>
+         
+         <hr/>
+         
+         <h2 id="server">O que são Servers?</h2>
+         <small><a href="#inicio">[Voltar]</a></small>
+         <p>
+            Server (ou servidor) <mark>é o computador que processa e devolve o que o client pediu</mark>. 
+            Recebe requisições, processa regras de negócio, consulta banco de dados e retorna respostas (páginas HTML, JSON, arquivos…).
+         </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <hr/>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+         <h2 id="linguagem"><font color="FF8C00">Linguagem de Programação</font></h2>
+         <small><a href="#inicio">[Voltar]</a></small>
+         <p>
+            <strong><abbr title="HyperText Markup Language">HTML</abbr></strong> é uma <del>linguagem de programação</del> uma linguagem de marcação, como o próprio nome já diz. 
+            Já a linguagem de programação é o idioma que usamos para dar comandos claros ao computador.
+            Elas definem como escrevemos lógica, estruturas e comportamentos. Algumas das mais usadas atualmente:
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+            <ol>
+               <li>TypeScript</li>
+               <li>Python</li>
+               <li>JavaScript</li>
+               <li>Java</li>
+               <li>C#</li>
+            </ol>
+            <blockquote>
+               <strong>Importante:</strong> Independente da linguagem, o ponto é: programar é dizer ao computador <strong>o que fazer</strong> e <strong>como fazer</strong>.
+            </blockquote>   
+         </p>
 
-</body>
-</html>
+         <hr/>
+
+         <h2 id="pratica">Introdução ao HTML na prática</h2>
+         <small><a href="#inicio">[Voltar]</a></small>
+         <p>
+            HTML é a estrutura básica de qualquer página web.
+         </p>
+         <h3>Estrutura mínima de um arquivo:</h3>
+         <img src="https://kinsta.com/wp-content/uploads/2021/11/Untitled-54.png" alt="">
+
+         <h3>Elementos mais comuns:</h3>
+
+         <ul>
+            <li>h1 a h6 (títulos)</li>
+            <li>p (parágrafos)</li>
+            <li>img (imagens)</li>
+            <li>a (links)</li>
+            <li>ul, ol, li (listas)</li>
+            <li>div e span (organização de layout)</li>
+         </ul>
+
+         <hr/>
+
+         <footer>
+            <h2><font color="FF8C00">Referências</font></h2>
+            <ul>
+               <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML: Linguagem de Marcação de Hipertexto</a></li>
+               <li><a href="https://youtu.be/Fhy-5CtVkiM?si=8m1TdjCXhkpAK890">Curso completo de HTML - seu PRIMEIRO SITE DO ZERO para iniciar em PROGRAMAÇÃO!</a></li>
+               <li><a href="https://www.amazon.com.br/gp/product/8575224034/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=8575224034&linkCode=as2&tag=novatec03-20">Livro: HTML5 - A Linguagem de Marcação que Revolucionou a Web - 2ª Edição</a></li>
+            </ul>
+         </footer>
+      </body>
+   </html>
